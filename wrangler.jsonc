@@ -1,0 +1,23 @@
+{
+  "name": "vsl-players",
+  "main": "src/index.ts",
+  "compatibility_date": "2024-12-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "kv_namespaces": [
+    {
+      "binding": "VSL_KV",
+      "id": "050efc477fcf41bea3ca4db32a32f449"
+    }
+  ],
+  "d1_databases": [
+    {
+      "binding": "VSL_DB",
+      "database_name": "vsl-player-db",
+      "database_id": "4498da12-f311-4a77-9d89-3bfbc7b2a10e"
+    }
+  ],
+  "vars": {
+    "BUNNY_LIBRARY_ID": "676737",
+    "BUNNY_API_KEY": "81081ffb-b514-4d72-8c56324bd85f-9c7d-4b7c"
+  }
+}
